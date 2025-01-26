@@ -1,0 +1,58 @@
+name: beat_math
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  intl: ^0.18.1  #追加
+  gsheets: ^0.4.0
+  http: ^0.13.4
+  connectivity_plus: ^2.0.2
+  flutter_riverpod: ^2.3.6
+  riverpod_annotation: ^2.1.1
+  freezed_annotation: ^2.3.2
+  json_annotation: ^4.8.0
+  confetti: ^0.6.0
+  fl_chart: ^0.36.4
+  hive:
+  hive_flutter:
+  flutter_local_notifications: ^12.0.0
+  flutter_datetime_picker: ^1.5.1
+  flip_card: ^0.6.0
+  auto_size_text: ^3.0.0 # Add this line
+  just_audio: ^0.9.24
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.6
+  percent_indicator: ^4.2.2
+  page_flip: ^0.2.3
+  animated_text_kit: ^4.2.2       # 最新バージョンを確認してください
+  audioplayers: ^6.1.0
+
+dev_dependencies:
+  custom_lint: ^0.6.2
+  riverpod_lint: ^2.3.9
+  build_runner: ^2.4.6
+  riverpod_generator: ^2.2.3
+  freezed: ^2.3.2
+  json_serializable: ^6.6.1
+  hive_generator:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
