@@ -1,0 +1,33 @@
+[
+    {
+      "id": "note1",
+      "question": "What is 2 + 2?",
+      "answer": 4,
+      "choices": [2, 3, 4, 5],
+      "laneIndex": 1,
+      "timeToHit": 3000,
+      "answered": false,
+      "judgement": null
+    },
+    {
+      "id": "note2",
+      "question": "What is the capital of Japan?",
+      "answer": 1,
+      "choices": [0, 1, 2, 3],
+      "laneIndex": 2,
+      "timeToHit": 5000,
+      "answered": true,
+      "judgement": "Correct"
+    },
+    {
+      "id": "note3",
+      "question": "Which planet is known as the Red Planet?",
+      "answer": 2,
+      "choices": [0, 1, 2, 3],
+      "laneIndex": 3,
+      "timeToHit": 7000,
+      "answered": true,
+      "judgement": "Incorrect"
+    }
+  ]
+  
