@@ -23,6 +23,7 @@ class _GameScreenState extends ConsumerState<GameScreen>
       vsync: this,
       duration: const Duration(seconds: 5),
     );
+    // ノーツが落下するアニメーションのコントローラ設定
   }
 
   @override
